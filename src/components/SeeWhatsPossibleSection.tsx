@@ -53,16 +53,16 @@ export default function SeeWhatsPossibleSection() {
                         >
                             &times;
                         </button>
-                        <div className="flex items-center justify-center h-full">
-                            <a
-                                href="https://www.youtube.com/watch?v=yxAPMfGR0jE"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="bg-blue-600 text-white px-6 py-3 rounded text-lg font-semibold"
-                            >
-                                Watch on YouTube
-                            </a>
-                        </div>
+                        
+                        <iframe
+                        className="w-full h-full rounded-lg shadow-lg"
+                        src="https://www.youtube-nocookie.com/embed/yxAPMfGR0jE?si=ZOkYoUX-9eayv1BL"
+                        title="YouTube video player"
+                        frameBorder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerPolicy="strict-origin-when-cross-origin"
+                        allowFullScreen
+                    />
                     </div>
                 </div>
             )}
