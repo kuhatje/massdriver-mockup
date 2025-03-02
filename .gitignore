@@ -25,3 +25,5 @@ pnpm-debug.log*
 
 # Misc
 *.log
+
+.update_script
