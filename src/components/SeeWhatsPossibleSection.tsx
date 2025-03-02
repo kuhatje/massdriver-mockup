@@ -53,13 +53,16 @@ export default function SeeWhatsPossibleSection() {
                         >
                             &times;
                         </button>
-                        <iframe
-                            className="w-full h-full"
-                            src="https://www.youtube.com/watch?v=yxAPMfGR0jE"
-                            title="Massdriver Overview"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            allowFullScreen
-                        />
+                        <div className="flex items-center justify-center h-full">
+                            <a
+                                href="https://www.youtube.com/watch?v=yxAPMfGR0jE"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="bg-blue-600 text-white px-6 py-3 rounded text-lg font-semibold"
+                            >
+                                Watch on YouTube
+                            </a>
+                        </div>
                     </div>
                 </div>
             )}
