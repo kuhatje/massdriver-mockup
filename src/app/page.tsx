@@ -5,7 +5,10 @@ import FeatureSection from "@/components/FeatureSection";
 import Footer from "@/components/Footer";
 import Navigation from "@/components/Navigation";
 import AnnouncementBar from "@/components/AnnouncementBar";
+
 import FloatingChat from "@/components/FloatingChat";
+import HowItWorksSection from '@/components/HowItWorksSection';
+
 
 
 export default function Home() {
@@ -14,6 +17,7 @@ export default function Home() {
             <AnnouncementBar />
             <Navigation />
             <HeroSection />
+            <HowItWorksSection />
 
 
 
