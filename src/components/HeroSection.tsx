@@ -2,7 +2,7 @@ export default function HeroSection() {
     return (
         <section className="text-center py-20 bg-gradient-to-b from-white to-blue-50">
             <h1 className="text-4xl font-bold text-gray-900">DevOps Without the Red Tape</h1>
-            <p className="mt-4 text-lg text-gray-600">
+            <p className="mt-2 text-lg text-gray-600">
                 At Massdriver, we believe in prevention, not permission.
             </p>
             <p className="mt-2 text-gray-600 max-w-2xl mx-auto">
