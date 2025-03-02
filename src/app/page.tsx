@@ -8,6 +8,8 @@ import AnnouncementBar from "@/components/AnnouncementBar";
 import FloatingChat from "@/components/FloatingChat";
 import HowItWorksSection from '@/components/HowItWorksSection';
 import SeeWhatsPossibleSection from '@/components/SeeWhatsPossibleSection';
+import TestimonialsSection from '../components/TestimonialsSection';
+
 
 
 
@@ -19,8 +21,7 @@ export default function Home() {
             <HeroSection />
             <HowItWorksSection />
             <SeeWhatsPossibleSection/>
-
-
+            <TestimonialsSection/>
 
             <FloatingChat />
         </main>
