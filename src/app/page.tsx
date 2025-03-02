@@ -9,6 +9,7 @@ import FloatingChat from "@/components/FloatingChat";
 import HowItWorksSection from '@/components/HowItWorksSection';
 import SeeWhatsPossibleSection from '@/components/SeeWhatsPossibleSection';
 import TestimonialsSection from '../components/TestimonialsSection';
+import DemoSection from '../components/DemoSection';
 
 
 
@@ -22,6 +23,7 @@ export default function Home() {
             <HowItWorksSection />
             <SeeWhatsPossibleSection/>
             <TestimonialsSection/>
+            <DemoSection/>
 
             <FloatingChat />
         </main>
