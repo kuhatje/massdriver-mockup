@@ -2,9 +2,9 @@
 
 This project recreates a simplified mockup of the [Massdriver.cloud](https://www.massdriver.cloud/) landing page using:
 
-- ✅ Next.js 15 (App Router)
-- ✅ TypeScript
-- ✅ Tailwind CSS
+- Next.js 15
+- TypeScript
+- Tailwind CSS
 
 ## Features
 
@@ -25,4 +25,4 @@ npm run dev
 
 ## Deployment
 
-This project is designed to be deployed to **Vercel**.
+This page is to be deployed to **Vercel**.
